@@ -1,0 +1,19 @@
+{
+  "name": "fcc_shortened_url",
+  "version": "1.0.0",
+  "description": "free code camp bonfire - url shortener",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jer244/FCC_urlShortenerAPI.git"
+  },
+  "author": "Jeremy Hurley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jer244/FCC_urlShortenerAPI/issues"
+  },
+  "homepage": "https://github.com/jer244/FCC_urlShortenerAPI#readme"
+}
