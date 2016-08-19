@@ -13,6 +13,5 @@ app.use(express.static('./public'));
 shortyController(app);
 
 //listen to port 3000
-app.listen(process.env.PORT, function(){
-console.log('Listening to default PORT')
-});
+app.listen(3000);
+console.log('You are listening to port 3000');

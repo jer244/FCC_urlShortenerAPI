@@ -1,9 +1,9 @@
 var url = require ('url');
 
 module.exports = function(app){
-var location = url.href;
 
 app.get('/', function(req, res){
+  var location = req.url;
   res.render('shorty.ejs', {location: location});
 })
 
