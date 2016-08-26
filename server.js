@@ -1,5 +1,6 @@
-var express = require ('express');
+'use strict';
 
+var express = require('express');
 var app = express();
 var shortyController = require('./controllers/shortyController')
 
@@ -13,10 +14,10 @@ app.use(express.static('./public'));
 shortyController(app);
 
 //listen to port 3000 (local)
-//app.listen(3000);
-//console.log('You are listening to port 3000');
+app.listen(3000);
+console.log('You are listening to port 3000');
 
 //for heroku
-app.listen(process.env.PORT, function(){
-console.log('Listening to default PORT')
-});
+//app.listen(process.env.PORT, function(){
+//console.log('Listening to default PORT')
+//});

@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/jer244/FCC_urlShortenerAPI#readme",
   "dependencies": {
+    "dotenv": "^2.0.0",
     "ejs": "^2.5.1",
     "express": "^4.14.0",
+    "mongoose": "^4.5.9",
     "nodemon": "^1.10.2",
     "url": "^0.11.0"
   }

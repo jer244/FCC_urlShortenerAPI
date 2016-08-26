@@ -4,7 +4,7 @@
   <script src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
   <script src = '/server.js' type = 'text/javascript'></script>
   <script src = '/controllers/shortyController.js' type = 'text/javascript'></script>
-  <link href = '/public/styles.css' rel = 'stylesheet' type = 'text/css' />
+  <link href = '/styles.css' rel = 'stylesheet' type = 'text/css' />
   </head>
 <body>
   <h1>Free Code Camp Bonfire</h1>
@@ -15,5 +15,14 @@
     <li>If URL passed as parameter is invalid, the JSON response will contain an error instead</li>
     <li>You can visit shortened URL and be redirected to the original URL</li>
   </ul>
-  <h3>Location = <%= location %></h3>
+  <h2>Example Uses:</h2>
+  <h3>Create Shortened URL:</h3>
+  <code><%= location %>new/http://www.foo.com</code>
+  <h3>Output:</h3>
+  <code>{'original_url':'http://www.foo.com', 'short_url':'<%= location %>1234'}</code>
+  <h3>Usage:</h3>
+  <code><%= location %>1234/</code>
+  <h3>Will redirect to:</h3>
+  <code>http://www.foo.com/</code>
 </body>
+</html>
