@@ -8,10 +8,10 @@ Able to pass a URL as a parameter and receive a shortened URL in JSON format If 
 
 Example Uses:
 
-Create Shortened URL: http://<span></span>hurley-fcc-urlshortener-api.herokuapp.com/new/http://<span></span>www.foo.com
+Create Shortened URL: http://<i></i>hurley-fcc-urlshortener-api.herokuapp.com/new/http://<i></i>www.foo.com
 
-Output: {'original_url':'http://<span></span>www.foo.com>', 'short_url':'<http://<span></span>hurley-fcc-urlshortener-api.herokuapp.com/1234'}
+Output: {'original_url':'http://<i></i>www.foo.com>', 'short_url':'<http://<i></i>hurley-fcc-urlshortener-api.herokuapp.com/1234'}
 
-Usage: http://<span></span>hurley-fcc-urlshortener-api.herokuapp.com/1234/
+Usage: http://<i></i>hurley-fcc-urlshortener-api.herokuapp.com/1234/
 
-Will redirect to: http://<span></span>www.foo.com/
+Will redirect to: http://<i></i>www.foo.com/
